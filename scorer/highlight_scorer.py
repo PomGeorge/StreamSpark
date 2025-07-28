@@ -10,11 +10,11 @@ def timestamp_to_seconds(ts: str) -> int:
     return h * 3600 + m * 60 + s
 
 def score_chat_activity(chat_data: List[Tuple[str, str, str]], window_size: int = 10) -> List[Tuple[int, int]]:
-    """
-    Groups chat into time windows and assigns hype scores using:
-    - message content (emotes, caps)
-    - unique user count (burst scoring)
-    """
+    
+    # Groups chat into time windows and assigns hype scores using:
+    # - message content (emotes, caps)
+    # - unique user count (burst scoring)
+    
     window_scores = defaultdict(int)
     window_users = defaultdict(set)  # maps window → set of usernames
 
