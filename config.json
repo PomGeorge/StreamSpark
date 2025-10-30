@@ -1,0 +1,18 @@
+{
+  "twitch": {
+    "client_id": "msv96ppln4tm2c5jhrmnshcu4k6w9n",
+    "client_secret": "9ig4w2uenoqaz2gngcr15rbik8srlx"
+  },
+  "anthropic": {
+    "api_key": ""
+  },
+  "settings": {
+    "default_clip_duration": 30,
+    "default_num_clips": 5,
+    "output_directory": "/mnt/user-data/outputs",
+    "temp_directory": "/tmp",
+    "frame_interval": 10,
+    "ai_batch_size": 20,
+    "highlight_threshold": 7.0
+  }
+}
