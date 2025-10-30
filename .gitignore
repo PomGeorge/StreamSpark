@@ -211,4 +211,4 @@ vod.mp4
 chat.json
 output/
 *.csv
-*.mp4
+.config.json
